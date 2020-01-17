@@ -1,5 +1,4 @@
 package iofile;
-
 /**
  * 
  * @author wushaoling
@@ -7,8 +6,10 @@ package iofile;
  */
 public class FileTest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) throws Exception{
+		//读取培训文件
+		IOFile f=new IOFile();
+		f.inputTrianFile(System.getProperty("user.dir")+"/src/iofile/培训情况统计.txt");
 
 	}
 

@@ -17,5 +17,4 @@ public class CollTest {
 		// 输出返回结果
 		System.out.println(count);
 	}
-
 }
